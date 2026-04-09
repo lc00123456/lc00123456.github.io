@@ -1,3 +1,0 @@
-RewriteEngine On
-# 把 B站转发的 /_security_proxy_login 重定向到 /security_proxy_login/
-RewriteRule ^_security_proxy_login$ /security_proxy_login/ [L,R=301]
